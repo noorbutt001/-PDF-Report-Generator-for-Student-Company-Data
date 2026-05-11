@@ -1,0 +1,10 @@
+2026-05-11 11:36:13 | INFO     | __main__:main:15 - Starting PDF Report Generator v2.0.0
+2026-05-11 11:36:14 | INFO     | __main__:main:15 - Starting PDF Report Generator v2.0.0
+2026-05-11 21:15:36 | INFO     | __main__:main:15 - Starting PDF Report Generator v2.0.0
+2026-05-11 21:17:26 | ERROR    | ui.cli_interface:_add_student:84 - Error: invalid literal for int() with base 10: '90%'
+2026-05-11 21:18:22 | ERROR    | ui.cli_interface:_add_student:84 - Error: could not convert string to float: 'a2.90'
+2026-05-11 21:19:07 | INFO     | data.data_manager:add_record:226 - Added record: 754-268-3864
+2026-05-11 21:19:30 | ERROR    | reports.abstract_report:generate:123 - Report generation failed: Missing required field: department
+2026-05-11 21:19:30 | ERROR    | ui.cli_interface:_generate_employee_report:134 - Error: Missing required field: department
+2026-05-11 21:20:30 | ERROR    | ui.cli_interface:_add_employee:106 - Error: could not convert string to float: '150,00000'
+2026-05-11 21:21:27 | ERROR    | data.data_manager:add_record:230 - Error adding record: [E001] Rating must be between 0 and 5.0, got 70.0
